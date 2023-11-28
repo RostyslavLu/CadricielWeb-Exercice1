@@ -22,21 +22,25 @@
                     <div class="form-floating mb-3">
                         <input name="name" class="form-control" id="name" type="text" placeholder="Saisie votre nom" />
                         <label for="name">Nom et prénom</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                     </div>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
                         <input name="email" class="form-control" id="email" type="email" placeholder="Saisie votre courriel" />
                         <label for="email">Courriel</label>
+                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                     </div>
                     <!-- Phone number input-->
                     <div class="form-floating mb-3">
                         <input name="phone" class="form-control" id="phone" type="tel" placeholder="Saisie votre numéro de téléphone" />
                         <label for="phone">Numéro de téléphone</label>
+                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                     </div>
                     <!-- Message input-->
                     <div class="form-floating mb-3">
                         <textarea name="message" class="form-control" id="message" type="text" placeholder="Saisie votre message" style="height: 10rem"></textarea>
                         <label for="message">Message</label>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                     </div>
                     <!-- Submit Button-->
                     <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Envoyer</button>
